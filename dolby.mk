@@ -48,4 +48,4 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 DEVICE_MANIFEST_FILE := \
     $(LOCAL_PATH)/vintf/manifest_dolby.xml
 
-$(call inherit-product, vendor/dolby/dolby-vendor.mk)
+$(call inherit-product, $(LOCAL_PATH)/dolby-vendor.mk)
